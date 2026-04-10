@@ -1,0 +1,51 @@
+  
+OM NAMDEV   
+   Linkedin | omnamdev565@gmail.com | GitHub  
+                                                                                                        Satna, Madhya Pradesh | Mobile: +91 8720854235  
+   OBJECTIVE   
+Motivated B.Tech student specializing in Artificial Intelligence and Data Science, seeking an internship or entry 
+level opportunity to apply skills in Python, Machine Learning, and Data Analysis to build practical, data -driven 
+solutions. 
+  
+SKILLS 
+● Programming Languages: C, Python, SQL 
+● Machine Learning: Linear Regression, Logistic Regression, Random Forest, Gradient Boosting 
+● Deep Learning: Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), Recurrent Neural 
+Networks (RNN), TensorFlow 
+● Libraries & Tools: Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook, VS Code 
+● Database Management: MySQL, PostgreSQL 
+● Visualization Tools: Power BI, Excel, Google Sheets 
+ 
+ PROJECTS  
+AUTOEXAMGEN – NLP BASED AUTOMATIC EXAM GENERATOR | Python, NLP    
+• Built an NLP-based system to generate exam-oriented questions from raw textual content.    
+• Implemented text preprocessing and keyword extraction techniques to identify important concepts.    
+• Designed rule-based logic to generate relevant, difficulty-controlled questions for academic use.  
+SKILL TEST – AI | Flask, Python, AI    
+• Developed an AI-powered web application for skill-based assessments with dynamic question generation.    
+• Implemented timer-based quizzes and real-time score analysis with visual summaries.    
+• Optimized backend logic for efficient data handling and smooth user experience.   
+IOT SMART STREET LIGHT    
+• Designed an IoT-based smart street lighting system with automatic brightness control.    
+• Used sensors and a microcontroller to adjust lighting based on environmental conditions.    
+• Improved energy efficiency through real-time monitoring and automation.  
+  
+    EDUCATION   
+B.Tech in Computer Science and Engineering    
+Specialization: Artificial Intelligence and Data Science    
+AKS University, Satna, Madhya Pradesh    
+CGPA: 8.2 | Duration: 2023 – 2027    
+Class XII (Senior Secondary): 74.3%      
+  
+ CERTIFICATES 
+• Generative AI Course – Shekunj 
+• 5 Days Winter School Program on Machine Learning – AKS University, Satna 
+• Un-wired IOT Exhibition Certificate – AKS University, Satna   
+  
+  PROFESSIONAL CONTRIBUTIONS 
+• Regularly share educational content on LinkedIn related to Data Science, Python, SQL, and AI trends. 
+• Participated in Google Cloud Arcade programs and completed cloud-based labs. 
+• Actively explore Data Science, Machine Learning, and Cloud technologies through self-learning and 
+practice. 
+• Google Cloud Innovator Member. 
+

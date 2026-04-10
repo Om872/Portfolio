@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@theme {
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-rajdhani: "Rajdhani", sans-serif;
+  --font-space: "Space Grotesk", sans-serif;
+
+  --color-neon-blue: #00f3ff;
+  --color-neon-purple: #bc13fe;
+  --color-neon-green: #0cf574;
+  --color-dark-bg: #030712;
+  --color-dark-surface: #0a0f1c;
+}
+
+/* ── Base styles ── */
+body {
+  background-color: var(--color-dark-bg);
+  color: #d1d5db;
+  font-family: var(--font-space);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body ::selection {
+  background-color: var(--color-neon-blue);
+  color: var(--color-dark-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-orbitron);
+  letter-spacing: 0.05em;
+}
+
+/* ── Glow utilities ── */
+.text-glow-blue {
+  text-shadow: 0 0 10px rgba(0, 243, 255, 0.7), 0 0 20px rgba(0, 243, 255, 0.5);
+}
+.text-glow-purple {
+  text-shadow: 0 0 10px rgba(188, 19, 254, 0.7), 0 0 20px rgba(188, 19, 254, 0.5);
+}
+.text-glow-green {
+  text-shadow: 0 0 10px rgba(12, 245, 116, 0.7), 0 0 20px rgba(12, 245, 116, 0.5);
+}
+.box-glow-blue {
+  box-shadow: 0 0 15px rgba(0, 243, 255, 0.2), inset 0 0 10px rgba(0, 243, 255, 0.05);
+}
+.box-glow-purple {
+  box-shadow: 0 0 15px rgba(188, 19, 254, 0.2), inset 0 0 10px rgba(188, 19, 254, 0.05);
+}
+
+/* ── Glassmorphism components ── */
+.glass-panel {
+  background: rgba(10, 15, 28, 0.6);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(31, 41, 55, 0.8);
+  border-radius: 1rem;
+}
+
+.glass-card {
+  background: linear-gradient(to bottom right, rgba(17, 24, 39, 0.9), rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(31, 41, 55, 0.5);
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+}
+.glass-card:hover {
+  border-color: rgba(0, 243, 255, 0.4);
+  box-shadow: 0 0 15px rgba(0, 243, 255, 0.15);
+}
+
+.nav-glass {
+  background: rgba(3, 7, 18, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(31, 41, 55, 0.5);
+}
+
+.hacker-text {
+  font-family: var(--font-rajdhani);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* ── Custom Scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00f3ff;
+  box-shadow: 0 0 10px #00f3ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
