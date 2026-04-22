@@ -18,9 +18,9 @@ const Navbar = () => {
         {/* Logo */}
         <a
           href="#hero"
-          className="text-2xl font-orbitron font-bold text-white tracking-widest text-glow-blue select-none"
+          className="text-xl md:text-2xl font-orbitron font-semibold text-white tracking-widest hover:text-neon-blue transition-colors duration-300 select-none flex items-center"
         >
-          &lt;OM/&gt;
+          Om Namdev
         </a>
 
         {/* Desktop Nav */}
